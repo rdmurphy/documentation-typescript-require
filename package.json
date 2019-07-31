@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "docs:working": "documentation build working.ts --parse-extension ts --format md > working.md",
+    "docs:broken": "documentation build broken.ts --parse-extension ts --format md > broken.md"
+  },
+  "devDependencies": {
+    "documentation": "^12.0.3"
+  }
+}
